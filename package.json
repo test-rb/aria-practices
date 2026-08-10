@@ -37,7 +37,7 @@
   },
   "homepage": "https://github.com/w3c/aria-practices#readme",
   "devDependencies": {
-    "@babel/core": "^7.28.0",
+    "@babel/core": "^7.29.7",
     "@babel/eslint-parser": "^7.28.0",
     "ava": "^6.4.1",
     "cheerio": "^1.1.2",
