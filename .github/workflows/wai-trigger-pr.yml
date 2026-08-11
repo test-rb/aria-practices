@@ -15,11 +15,12 @@ on:
       - "!content/landmarks/examples/**"
       - "!common/**"
 
+permissions:
+  contents: read
+
 jobs:
   create-pr-wai:
     runs-on: ubuntu-latest
-    permissions:
-      actions: write
     steps:
       - name: Trigger wai-aria-practices PR update
         uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd #v8.0.0
